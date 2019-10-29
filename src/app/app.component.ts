@@ -23,8 +23,6 @@ export class AppComponent {
               satelliteNew = new Satellite(fetchedSatellites[i].name, fetchedSatellites[i].type, fetchedSatellites[i].launchDate, fetchedSatellites[i].orbitType, fetchedSatellites[i].operational);
               this.sourceList.push(satelliteNew);
             }
-          
- 
        }.bind(this));
     }.bind(this));
  
